@@ -1,4 +1,4 @@
-name: encryption_app
+name: testwidget
 description: A sample command-line application.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
@@ -7,13 +7,13 @@ environment:
   sdk: '>=2.19.6 <3.0.0'
 
 dependencies:
-  material: ^1.0.0+2
-  panda: ^1.0.0-dev.12
-  pandabar: ^0.1.2
-  crypto: ^3.0.3
-  encrypt: ^5.0.1
-#   path: ^1.8.0
+  flutter:
+    sdk: flutter
+  path: ^1.8.0
 
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.21.0
+
+flutter:
+  uses-material-design: true
